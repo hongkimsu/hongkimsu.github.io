@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://hongkimsu.github.io</id>
+  <title>demoblog</title>
+  <updated>2023-06-28T08:23:11.387689+00:00</updated>
+  <link href="https://hongkimsu.github.io"/>
+  <link href="https://hongkimsu.github.io/blog/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.4.post1">ABlog</generator>
+  <subtitle>Open communities, open science, communication, and data.</subtitle>
+  <entry>
+    <id>https://hongkimsu.github.io/blog/2023/2023-01-01-markdown_blog_post.html</id>
+    <title>Hello World from blog post using Markdown</title>
+    <updated>2023-01-01T00:00:00+09:00</updated>
+    <content type="html">&lt;section id="hello-world-from-blog-post-using-markdown"&gt;
+
+&lt;p&gt;This is the demo blog post generated from Markdown file.&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://hongkimsu.github.io/blog/2023/2023-01-01-markdown_blog_post.html" rel="alternate"/>
+    <summary>This is the demo blog post generated from Markdown file.</summary>
+    <category term="productivity" label="productivity"/>
+    <published>2023-01-01T00:00:00+09:00</published>
+  </entry>
+</feed>
