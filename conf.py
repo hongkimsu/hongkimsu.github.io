@@ -37,7 +37,6 @@ extensions = [
     "sphinx_copybutton",
     "sphinx_examples",
     "sphinxext.opengraph",
-    # "sphinxext.rediraffe",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -64,26 +63,6 @@ html_sidebars = {
     "blog": ["ablog/categories.html", "ablog/tagcloud.html", "ablog/archives.html"],
     "blog/**": ["ablog/postcard.html", "ablog/recentposts.html", "ablog/archives.html"],
 }
-
-
-rediraffe_redirects = {
-    "2023-01-01-markdown_blog_post.md": "blog/2023/2023-01-01-markdown_blog_post.md",
-}
-# Update the posts/* section of the rediraffe redirects to find all files
-redirect_folders = {
-    "posts": "blog",
-}
-from pathlib import Path
-
-for old, new in redirect_folders.items():
-    for newpath in Path(new).rglob("**/*"):
-        if newpath.suffix in [".ipynb", ".md"] and "ipynb_checkpoints" not in str(
-            newpath
-        ):
-            oldpath = str(newpath).replace("blog/", "posts/", 1)
-            # Skip pandoc because for some reason it's broken
-            if "pandoc" not in str(newpath):
-                rediraffe_redirects[oldpath] = str(newpath)
 
 # -- ABlog ---------------------------------------------------
 
