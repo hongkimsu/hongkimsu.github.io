@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://hongkimsu.github.io</id>
   <title>demoblog</title>
-  <updated>2023-06-28T08:28:07.485118+00:00</updated>
+  <updated>2023-06-29T03:12:56.529615+00:00</updated>
   <link href="https://hongkimsu.github.io"/>
   <link href="https://hongkimsu.github.io/blog/atom.xml" rel="self"/>
-  <generator uri="https://ablog.readthedocs.io/" version="0.11.4.post1">ABlog</generator>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.0rc1">ABlog</generator>
   <subtitle>Open communities, open science, communication, and data.</subtitle>
   <entry>
     <id>https://hongkimsu.github.io/blog/2023/2023-01-01-markdown_blog_post.html</id>
